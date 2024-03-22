@@ -6,7 +6,7 @@ from PIL import Image
 import cv2
 
 # Path to the model of Yolov9 and parseq-tiny
-yolo_weights = r"./pretrained_model/yolov9-c-converted-best-5class.pt"
+yolo_weights = r"./pretrained_model/best.pt"
 parseq_model = r"./pretrained_model/parseq-tiny-epoch=7-step=298-val_accuracy=99.0909-val_NED=99.0909.pt"
 # path to the image you want to test
 image_source = r"./test_set/01.jpg"
