@@ -10,7 +10,7 @@ yolo_weights = r"./pretrained_model/yolov9-c-converted-best-5class.pt"
 parseq_model = r"./pretrained_model/parseq-tiny-epoch=7-step=298-val_accuracy=99.0909-val_NED=99.0909.pt"
 # path to the image you want to test
 image_source = r"./test_set/01.jpg"
-device = "gpu"
+device = "cpu"
 
 # First, we detect using YOLOv9
 det = obj_detect(weights=yolo_weights, source=image_source, device=device)
